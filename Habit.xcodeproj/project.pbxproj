@@ -7,18 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F015E0A296CFDE600C41967 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F015E09296CFDE600C41967 /* HomeView.swift */; };
+		3F015E0C296CFDFB00C41967 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F015E0B296CFDFB00C41967 /* HomeViewModel.swift */; };
+		3F2D58AD296BD120008F574B /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D58AC296BD120008F574B /* SplashViewModel.swift */; };
+		3F2D58B3296BDA47008F574B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D58B2296BDA47008F574B /* SignInView.swift */; };
+		3F2D58B5296BDAAA008F574B /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D58B4296BDAAA008F574B /* SignInViewModel.swift */; };
+		3F2D58B7296BDB80008F574B /* SplashViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D58B6296BDB80008F574B /* SplashViewRouter.swift */; };
+		3F6B18B8296D351900EFCF8B /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B18B7296D351900EFCF8B /* Gender.swift */; };
+		3F6B18BA296D381D00EFCF8B /* SignUpUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B18B9296D381D00EFCF8B /* SignUpUIState.swift */; };
+		3F6B18BC296D386700EFCF8B /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B18BB296D386700EFCF8B /* SignUpViewModel.swift */; };
+		3F6B18BE296D38F100EFCF8B /* SignUpViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6B18BD296D38F100EFCF8B /* SignUpViewRouter.swift */; };
 		3F9131E9296873EA000EC3A2 /* HabitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9131E8296873EA000EC3A2 /* HabitApp.swift */; };
-		3F9131EB296873EA000EC3A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9131EA296873EA000EC3A2 /* ContentView.swift */; };
 		3F9131ED296873EA000EC3A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9131EC296873EA000EC3A2 /* Assets.xcassets */; };
 		3F9131F0296873EA000EC3A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9131EF296873EA000EC3A2 /* Preview Assets.xcassets */; };
+		3F9131FA296874B0000EC3A2 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9131F9296874B0000EC3A2 /* SplashView.swift */; };
+		3F9131FC296875A7000EC3A2 /* SplashUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9131FB296875A7000EC3A2 /* SplashUIState.swift */; };
+		3F94D5AF296D072500A4F6C6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F94D5AE296D072500A4F6C6 /* SignUpView.swift */; };
+		3FB49C46297057AC00B7AB12 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB49C45297057AC00B7AB12 /* WebService.swift */; };
+		3FBB87CB296E86D000E78E2D /* EditTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB87CA296E86D000E78E2D /* EditTextView.swift */; };
+		3FBB87CE296E8FE700E78E2D /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBB87CD296E8FE700E78E2D /* CustomTextFieldStyle.swift */; };
+		3FD676E8296CA7FF00798894 /* SignInUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD676E7296CA7FF00798894 /* SignInUIState.swift */; };
+		3FD676EA296CAF6F00798894 /* SignInViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD676E9296CAF6F00798894 /* SignInViewRouter.swift */; };
+		3FE73F1E296F11C7001995C0 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE73F1D296F11C7001995C0 /* String+Extension.swift */; };
+		3FE73F22296F182E001995C0 /* LoadingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE73F21296F182E001995C0 /* LoadingButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F015E09296CFDE600C41967 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3F015E0B296CFDFB00C41967 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3F2D58AC296BD120008F574B /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		3F2D58B2296BDA47008F574B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		3F2D58B4296BDAAA008F574B /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		3F2D58B6296BDB80008F574B /* SplashViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewRouter.swift; sourceTree = "<group>"; };
+		3F6B18B7296D351900EFCF8B /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		3F6B18B9296D381D00EFCF8B /* SignUpUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUIState.swift; sourceTree = "<group>"; };
+		3F6B18BB296D386700EFCF8B /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		3F6B18BD296D38F100EFCF8B /* SignUpViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewRouter.swift; sourceTree = "<group>"; };
 		3F9131E5296873EA000EC3A2 /* Habit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9131E8296873EA000EC3A2 /* HabitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitApp.swift; sourceTree = "<group>"; };
-		3F9131EA296873EA000EC3A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F9131EC296873EA000EC3A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F9131EF296873EA000EC3A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F9131F9296874B0000EC3A2 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		3F9131FB296875A7000EC3A2 /* SplashUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashUIState.swift; sourceTree = "<group>"; };
+		3F94D5AE296D072500A4F6C6 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		3FB49C45297057AC00B7AB12 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		3FBB87CA296E86D000E78E2D /* EditTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextView.swift; sourceTree = "<group>"; };
+		3FBB87CD296E8FE700E78E2D /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
+		3FD676E7296CA7FF00798894 /* SignInUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUIState.swift; sourceTree = "<group>"; };
+		3FD676E9296CAF6F00798894 /* SignInViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewRouter.swift; sourceTree = "<group>"; };
+		3FE73F1D296F11C7001995C0 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		3FE73F21296F182E001995C0 /* LoadingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +70,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F015E06296CFC6D00C41967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F015E09296CFDE600C41967 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F015E07296CFC7200C41967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F015E08296CFC7700C41967 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F015E0B296CFDFB00C41967 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3F2D58AB296BD0F7008F574B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D58AC296BD120008F574B /* SplashViewModel.swift */,
+				3F2D58B6296BDB80008F574B /* SplashViewRouter.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3F2D58AE296BD9FC008F574B /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D58B1296BDA11008F574B /* ViewModel */,
+				3F2D58B0296BDA0B008F574B /* View */,
+				3F2D58AF296BDA07008F574B /* Model */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		3F2D58AF296BDA07008F574B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FD676E7296CA7FF00798894 /* SignInUIState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F2D58B0296BDA0B008F574B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D58B2296BDA47008F574B /* SignInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F2D58B1296BDA11008F574B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D58B4296BDAAA008F574B /* SignInViewModel.swift */,
+				3FD676E9296CAF6F00798894 /* SignInViewRouter.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3F6B18B5296D34E700EFCF8B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3FB49C422970576D00B7AB12 /* Network */,
+				3FE73F1C296F119B001995C0 /* Lang */,
+				3FBB87C8296E86AD00E78E2D /* View */,
+				3F6B18B6296D34F800EFCF8B /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3F6B18B6296D34F800EFCF8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B18B7296D351900EFCF8B /* Gender.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3F9131DC296873EA000EC3A2 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +175,12 @@
 		3F9131E7296873EA000EC3A2 /* Habit */ = {
 			isa = PBXGroup;
 			children = (
+				3F6B18B5296D34E700EFCF8B /* Common */,
+				3F94D5AA296D058100A4F6C6 /* SignUp */,
+				3FD676EB296CAFBA00798894 /* Home */,
+				3F2D58AE296BD9FC008F574B /* SignIn */,
+				3F9131F629687462000EC3A2 /* Splash */,
 				3F9131E8296873EA000EC3A2 /* HabitApp.swift */,
-				3F9131EA296873EA000EC3A2 /* ContentView.swift */,
 				3F9131EC296873EA000EC3A2 /* Assets.xcassets */,
 				3F9131EE296873EA000EC3A2 /* Preview Content */,
 			);
@@ -65,6 +193,111 @@
 				3F9131EF296873EA000EC3A2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F9131F629687462000EC3A2 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D58AB296BD0F7008F574B /* ViewModel */,
+				3F9131F829687484000EC3A2 /* Model */,
+				3F9131F729687475000EC3A2 /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		3F9131F729687475000EC3A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F9131F9296874B0000EC3A2 /* SplashView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F9131F829687484000EC3A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F9131FB296875A7000EC3A2 /* SplashUIState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F94D5AA296D058100A4F6C6 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				3F94D5AD296D058F00A4F6C6 /* ViewModel */,
+				3F94D5AC296D058A00A4F6C6 /* View */,
+				3F94D5AB296D058600A4F6C6 /* Model */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		3F94D5AB296D058600A4F6C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B18B9296D381D00EFCF8B /* SignUpUIState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F94D5AC296D058A00A4F6C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F94D5AE296D072500A4F6C6 /* SignUpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F94D5AD296D058F00A4F6C6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F6B18BB296D386700EFCF8B /* SignUpViewModel.swift */,
+				3F6B18BD296D38F100EFCF8B /* SignUpViewRouter.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3FB49C422970576D00B7AB12 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3FB49C45297057AC00B7AB12 /* WebService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3FBB87C8296E86AD00E78E2D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FBB87CC296E8FD000E78E2D /* Style */,
+				3FBB87CA296E86D000E78E2D /* EditTextView.swift */,
+				3FE73F21296F182E001995C0 /* LoadingButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FBB87CC296E8FD000E78E2D /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				3FBB87CD296E8FE700E78E2D /* CustomTextFieldStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		3FD676EB296CAFBA00798894 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3F015E08296CFC7700C41967 /* ViewModel */,
+				3F015E07296CFC7200C41967 /* Model */,
+				3F015E06296CFC6D00C41967 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3FE73F1C296F119B001995C0 /* Lang */ = {
+			isa = PBXGroup;
+			children = (
+				3FE73F1D296F11C7001995C0 /* String+Extension.swift */,
+			);
+			path = Lang;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +370,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F9131EB296873EA000EC3A2 /* ContentView.swift in Sources */,
+				3F9131FC296875A7000EC3A2 /* SplashUIState.swift in Sources */,
+				3F015E0C296CFDFB00C41967 /* HomeViewModel.swift in Sources */,
 				3F9131E9296873EA000EC3A2 /* HabitApp.swift in Sources */,
+				3FE73F22296F182E001995C0 /* LoadingButtonView.swift in Sources */,
+				3FE73F1E296F11C7001995C0 /* String+Extension.swift in Sources */,
+				3F6B18BE296D38F100EFCF8B /* SignUpViewRouter.swift in Sources */,
+				3F2D58B5296BDAAA008F574B /* SignInViewModel.swift in Sources */,
+				3F94D5AF296D072500A4F6C6 /* SignUpView.swift in Sources */,
+				3F015E0A296CFDE600C41967 /* HomeView.swift in Sources */,
+				3FB49C46297057AC00B7AB12 /* WebService.swift in Sources */,
+				3FD676EA296CAF6F00798894 /* SignInViewRouter.swift in Sources */,
+				3F6B18BC296D386700EFCF8B /* SignUpViewModel.swift in Sources */,
+				3F6B18BA296D381D00EFCF8B /* SignUpUIState.swift in Sources */,
+				3F9131FA296874B0000EC3A2 /* SplashView.swift in Sources */,
+				3F6B18B8296D351900EFCF8B /* Gender.swift in Sources */,
+				3F2D58AD296BD120008F574B /* SplashViewModel.swift in Sources */,
+				3FD676E8296CA7FF00798894 /* SignInUIState.swift in Sources */,
+				3FBB87CE296E8FE700E78E2D /* CustomTextFieldStyle.swift in Sources */,
+				3FBB87CB296E86D000E78E2D /* EditTextView.swift in Sources */,
+				3F2D58B7296BDB80008F574B /* SplashViewRouter.swift in Sources */,
+				3F2D58B3296BDA47008F574B /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
